@@ -716,6 +716,7 @@ generate_export_header (glog
 
 # Unit testing
 
+set(BUILD_TESTING OFF)
 if (BUILD_TESTING)
   add_library (glogtest STATIC
     $<TARGET_OBJECTS:glogbase>
